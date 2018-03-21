@@ -40,7 +40,7 @@ If you're running cURL on Windows, you need to wrap the payload with double quot
 
 .. code-block:: text
 
-  curl -i -X POST -H 'Content-Type: application/json' -d '{\"text\": "Hello, this is some text\nThis is more text. :tada:\"}' http://{your-mattermost-site}/hooks/xxx-generatedkey-xxx
+  curl -i -X POST -H 'Content-Type: application/json' -d '{\"text\": \"Hello, this is some text\nThis is more text. :tada:\"}' http://{your-mattermost-site}/hooks/xxx-generatedkey-xxx
 
 Parameters and Formatting
 --------------------------
